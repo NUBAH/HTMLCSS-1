@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+body {
+	position: relative;
+	margin: 50px auto;
+	width: 960px;
+}
+.title-image1 {
+	height: 150px;
+	background-image: url(img/japan.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+.title-image2 {
+	height: 150px;
+	background-image: url(img/asia.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+.title-image3 {
+	height: 150px;
+	background-image: url(img/airport.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+.title-num {
+	position: absolute;
+	top: 0;
+	background-color: orange;
+	text-align: center;
+	color: white;
+	padding: 3px;
+}
+.title1, .title2, .title3 {
+	float: left;
+	padding: 10px;
+	border: 1px solid #eee;
+}
+.title1 {
+	margin-right: 5%;
+}
+.title2 {
+	margin-right: 5%;
+}
+.title {
+	margin: 15px 0 5px;
+}

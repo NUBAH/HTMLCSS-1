@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.main-visual {
+	height: 400px;
+	width: 100%;
+	background-image: url('img/asia.jpg');
+	background-size: cover;
+	background-position: center;
+
+}
+.headline {
+	padding: 20px 0 0 20px;
+}
+.blog {
+	width: 840px;
+	height: 100%;
+	line-height: 30px;
+}
+.blog1 {
+	margin-top: 50px;
+	padding-bottom: 30px;
+	border-bottom: solid;
+}
+.blog2 {
+	padding: 30px 0;
+	border-bottom: solid;
+}
+.blog3 {
+	padding: 30px 0;
+	border-bottom: solid;
+}
+.blog4 {
+	padding: 30px 0;
+	border-bottom: solid;
+}

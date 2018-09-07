@@ -74,7 +74,7 @@
 @media screen and (max-width:768px) {
 	.title {
 		width: 90%;
-		margin: 50px 0;
+		margin: 50px auto;
 	}
 	.title-image1, .title-image2, .title-image3 {
 		width: 100%;

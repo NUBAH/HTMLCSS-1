@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.title {
+	margin: 50px auto;
+	width: 960px;
+	padding: 0 47px;
+}
+.title-image1 {
+	height: 150px;
+	background-image: url(first-img/sunset.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.title-image2 {
+	height: 150px;
+	background-image: url(first-img/asia.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.title-image3 {
+	height: 150px;
+	background-image: url(first-img/airport.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.title-num1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: orange;
+	text-align: center;
+	color: white;
+	padding: 3px;
+}
+.title-num2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: orange;
+	text-align: center;
+	color: white;
+	padding: 3px;
+}
+.title-num3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: orange;
+	text-align: center;
+	color: white;
+	padding: 3px;
+}
+.title1, .title2, .title3 {
+	position: relative;
+	float: left;
+	padding: 10px;
+	border: 1px solid #eee;
+}
+.title1 {
+	margin-right: 5%;
+}
+.title2 {
+	margin-right: 5%;
+}
+
+@media screen and (max-width:768px) {
+	.title {
+		width: 90%;
+		margin: 50px 0;
+	}
+	.title-image1, .title-image2, .title-image3 {
+		width: 100%;
+	}
+	.title1, .title2 {
+		float: none;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+	.title3 {
+		float: none;
+	}
+}
+
+
+
+
+
+
